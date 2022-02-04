@@ -42,7 +42,7 @@ WORKDIR /BOT7
 
 COPY . /BOT7
 
-RUN python3 -m pip install -r /scbykirbotzz/requirements.txt
+RUN python3 -m pip install -r /BOT7/requirements.txt
 
 ENV TZ=Asia/Jakarta
 
